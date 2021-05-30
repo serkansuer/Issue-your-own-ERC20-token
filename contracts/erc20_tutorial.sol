@@ -1,13 +1,13 @@
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// 'AKP Token' token contract
+// '0Fucks' token contract
 //
 // Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
-// Symbol      : AKP
-// Name        : AKP Coin
+// Symbol      : 0FUCKS
+// Name        : 0 Fucks Token
 // Total supply: 100000000
-// Decimals    : 8
+// Decimals    : 18
 //
 // Enjoy.
 //
@@ -113,12 +113,12 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "AKP";
-        name = "AKP Coin";
-        decimals = 8;
-        _totalSupply = 10000000000000000;
-        balances[0xe2B7a0c7bC21E000B8327713513b9D4d2620A414] = _totalSupply;
-        emit Transfer(address(0), 0xe2B7a0c7bC21E000B8327713513b9D4d2620A414, _totalSupply);
+        symbol = "0FUCKS";
+        name = "0 Fucks Token";
+        decimals = 18;
+        _totalSupply = 100000000000000000000000000;
+        balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
+        emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupply);
     }
 
 
