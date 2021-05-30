@@ -1,9 +1,9 @@
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// 'AKP Token' token contract
+// 'AKP Coin' token contract
 //
-// Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
+// Deployed to : 0xe2B7a0c7bC21E000B8327713513b9D4d2620A414
 // Symbol      : AKP
 // Name        : AKP Coin
 // Total supply: 100000000
